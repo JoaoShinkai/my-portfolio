@@ -329,6 +329,15 @@ a:nth-child(2) .joaoshinkai-info-left-media-item:hover{
 .joaoshinkai-trabalhos-container-item:nth-child(even) .joaoshinkai-trabalhos-container-item-image{
     order: 2;
 }
+.joaoshinkai-trabalhos-container-item:nth-child(even) .joaoshinkai-trabalhos-container-item-content-title-text{
+    text-align: end;
+}
+.joaoshinkai-trabalhos-container-item:nth-child(even) .joaoshinkai-trabalhos-container-item-content-title-badges{
+    justify-content: end;
+}
+.joaoshinkai-trabalhos-container-item:nth-child(even) .joaoshinkai-trabalhos-container-item-content-buttons{
+    justify-content: end;
+}
 .joaoshinkai-trabalhos-container-item-image{
     width: 50%;
     padding: 5%;
